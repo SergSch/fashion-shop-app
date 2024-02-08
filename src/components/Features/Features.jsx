@@ -1,46 +1,52 @@
 import React from 'react';
 import ProductCard from '../../layouts/ProductCard/ProductCard';
+import product7 from '../../assets/img/product7.jpg';
+import product8 from '../../assets/img/product8.jpg';
+import product9 from '../../assets/img/product9.jpg';
+import product10 from '../../assets/img/product10.jpg';
+import product11 from '../../assets/img/product11.jpg';
+import product12 from '../../assets/img/product12.jpg';
 
 const Features = () => {
   const data = [
     {
       id: 6,
-      img: '/src/assets/img/product7.jpg',
+      img: product7,
       name: 'FrostFire Outerlayers',
       price: '398.00',
       discount: '24% Off',
     },
     {
       id: 7,
-      img: '/src/assets/img/product8.jpg',
+      img: product8,
       name: 'DaintyDoll Dresses',
       price: '258.00',
       discount: '40% Off',
     },
     {
       id: 8,
-      img: '/src/assets/img/product9.jpg',
+      img: product9,
       name: 'TrendTraverse Bag',
       price: '104.00',
       discount: '35% Off',
     },
     {
       id: 9,
-      img: '/src/assets/img/product10.jpg',
+      img: product10,
       name: 'Fitness Footgear',
       price: '299.00',
       discount: '40% Off',
     },
     {
       id: 10,
-      img: '/src/assets/img/product11.jpg',
+      img: product11,
       name: 'UrbanBelle Hoodies',
       price: '129.00',
       discount: '28% Off',
     },
     {
       id: 11,
-      img: '/src/assets/img/product12.jpg',
+      img: product12,
       name: 'Elite Handbags',
       price: '189.00',
       discount: '30% Off',
